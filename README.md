@@ -1,20 +1,20 @@
-# dokku-weasyprint
+# dokku-openssl
 
-dokku-weasyprint is an awesome plugin for [dokku][dokku] that properly installs the weasyprint into the docker instance.
-This plugin should fix the problems you may have when downloading weasyprint with ```apt-get``` for example by using another awesome plugin [dokku-apt][dokku-apt].
+dokku-openssl is an awesome plugin for [dokku][dokku] that properly installs the openssl into the docker instance.
+This plugin should fix the problems you may have when downloading openssl with ```apt-get``` for example by using another awesome plugin [dokku-apt][dokku-apt].
 
 ## Installation
 
 On your dokku server:
 ```
 # On 0.3.x
-git clone https://github.com/backstitch/dokku-weasyprint /var/lib/dokku/plugins/dokku-weasyprint
+git clone https://github.com/backstitch/dokku-openssl /var/lib/dokku/plugins/dokku-openssl
 
 # On 0.4.x
-dokku plugin:install https://github.com/backstitch/dokku-weasyprint.git weasyprint
+dokku plugin:install https://github.com/backstitch/dokku-openssl.git openssl
 ```
 
-All future deployments will have dokku-weasyprint installed.
+All future deployments will have dokku-openssl installed.
 
 ## License
 
